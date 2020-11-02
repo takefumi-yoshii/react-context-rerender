@@ -3,7 +3,7 @@ import { ChildCount } from "./ChildCount";
 import { ChildText } from "./ChildText";
 // ______________________________________________________
 //
-// GrandChild に propsdown していることで、
+// GrandChild に バケツリレー していることで、
 // rerender が発生してしまっている
 //
 type Props = {

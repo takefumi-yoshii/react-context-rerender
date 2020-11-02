@@ -1,5 +1,7 @@
 import React from "react";
-import { TextContext } from "./TextContext";
+// ______________________________________________________
+//
+export const TextContext = React.createContext<string>("");
 // ______________________________________________________
 //
 export const TextProvider: React.FC = (props) => {

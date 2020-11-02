@@ -1,5 +1,7 @@
 import React from "react";
-import { CounterContext } from "./CounterContext";
+// ______________________________________________________
+//
+export const CounterContext = React.createContext<number>(0);
 // ______________________________________________________
 //
 export const CounterProvider: React.FC = (props) => {

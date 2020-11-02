@@ -1,7 +1,7 @@
 import React from "react";
-import { CounterContext } from "./CounterContext";
-import { TextContext } from "./TextContext";
 import { Child } from "./Child";
+import { CounterContext } from "./CounterProvider";
+import { TextContext } from "./TextProvider";
 // ______________________________________________________
 //
 export const Parent: React.FC = () => {
