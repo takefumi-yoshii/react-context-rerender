@@ -17,8 +17,8 @@ const Page = () => (
         </Link>
       </li>
       <li>
-        <Link href="/mico-hook">
-          <a>mico-hook</a>
+        <Link href="/micro-hook">
+          <a>micro-hook</a>
         </Link>
       </li>
     </ul>

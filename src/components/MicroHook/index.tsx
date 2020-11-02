@@ -10,7 +10,7 @@ import { TextProvider } from "./TextProvider";
 // - PROS: React.memo化 が末端コンポーネントで不要になる
 // - CONS: 末端コンポーネントが Context 依存している （再利用性：低）
 //
-export const MicoHook = () => (
+export const MicroHook = () => (
   <TextProvider>
     <CounterProvider>
       <Parent>

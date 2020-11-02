@@ -1,11 +1,11 @@
 import React from "react";
-import { MicoHook } from "../components/MicoHook";
+import { MicroHook } from "../components/MicroHook";
 // ______________________________________________________
 //
 const Page = () => (
   <>
-    <h1>MicoHook</h1>
-    <MicoHook />
+    <h1>MicroHook</h1>
+    <MicroHook />
   </>
 );
 
